@@ -1,0 +1,224 @@
+header {
+    background-color:#00A0C6;
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border-bottom: 10px solid #027794;
+}
+
+b {
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 1rem;
+}
+
+span {
+    background-color: white;
+    color: #00A0C6;
+    display: block;
+    width: fit-content;
+    margin: 0.7rem auto;
+}
+
+.secondo-titolo {
+    color: black;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-block: 1rem;
+    margin-inline: 1rem;
+    font-variant: small-caps;
+    
+}
+
+.hr-custom {
+    display: none;
+}
+
+section h2 {
+    color: #027794;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-block: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Raleway', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-postazione {
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.517);
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption {
+    margin-top: 1rem;
+}
+
+address {
+    font-style: normal;
+    margin-block: 1rem;
+    margin: 1rem;
+}
+
+a {
+    color:#D67C71;
+}
+
+#su-di-me {
+    margin-block: 1rem;
+    margin: 1rem;
+}
+
+blockquote {
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 1rem;
+    font-style: italic;
+    
+}
+
+.presentazione {
+    margin: 1rem;
+    margin-block: 1.5rem;
+}
+
+strong {
+    color: #027794;
+}
+
+hr {
+    border: none; 
+    border-top: 2px dashed #333; 
+    margin-inline: 1rem;
+    margin-block: 2rem;
+}
+
+#formazione {
+    margin-block: 1.5rem;
+    margin: 1rem;
+}
+
+h3 {
+    font-weight: bold;
+    margin-block: 0.5rem;
+}
+
+mark { 
+    background-color: #027794;
+    color: white;
+
+}
+
+#competenze {
+    margin-block: 1.5rem;
+    margin: 1rem;
+}
+
+li {
+    margin-left: 2rem;
+    margin-block: 1rem;
+}
+
+dd {
+    margin-left: 0.5rem;
+    margin-block: 1rem;
+}
+
+footer {
+    background-color:#353535 ;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 5px solid #027794;
+}
+
+footer p {
+    margin-block: 1rem;
+    margin-inline: 1rem;
+    line-height: 2rem;
+}
+
+kbd {
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#autorizzazione-dati {
+    padding-top: 1.5rem;
+    color: gray;
+}
+
+#copyright {
+    padding-top: 1.5rem;
+}
+
+@media screen and (min-width: 800px) {
+    address {
+        margin: auto;
+        width: 240px;
+        margin-top: 1rem;
+
+    }
+    
+    blockquote {
+        text-align: center;
+    }
+    #su-di-me {
+        text-align: center;
+    }
+}    
+
+@media screen and (min-width: 1230px) {
+    .info-personali {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1rem;
+
+    }
+    figcaption {
+        margin: 1.5rem;
+    }
+
+    section h2 {
+        display: inline;
+        margin: 2rem;
+
+    }
+    
+
+    h3 {
+        margin-block: 1rem;
+    }
+
+    footer p {
+        margin-block: 1rem;
+    }
+  }
